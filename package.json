@@ -1,0 +1,13 @@
+{
+  "name": "financebull",
+  "version": "1.0.0",
+  "description": "executive search",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "npm start"
+  },
+  "author": "DT",
+  "license": "MIT"
+}
