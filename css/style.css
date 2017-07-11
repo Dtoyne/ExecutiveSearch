@@ -45,7 +45,8 @@
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: black;
+		color: white;
+		font-family: sans-serif;
 		font-weight: 300;
 		line-height: 1em;
 		margin: 0 0 2em 0;
@@ -345,8 +346,8 @@
 
 		input[type="checkbox"]:checked + label:before,
 		input[type="radio"]:checked + label:before {
-			background: #3ba666;
-			border-color: #3ba666;
+			background: #004225;
+			border-color: #004225;
 			color: #ffffff;
 			content: '\f00c';
 		}
@@ -894,6 +895,9 @@
 
 			#header h1 a {
 				font-size: 1.25em;
+				color: white;
+				font-family: serif;
+				text-decoration: none;
 			}
 
 		#header nav {
@@ -924,7 +928,8 @@
 						-o-transition: color 0.2s ease-in-out;
 						-ms-transition: color 0.2s ease-in-out;
 						transition: color 0.2s ease-in-out;
-						color: #cee8d8;
+						color: white;
+						font-family: serif;
 						display: inline-block;
 						text-decoration: none;
 					}
@@ -967,7 +972,7 @@
 		background-repeat: no-repeat;
 		background-size: cover;
 		color: #ffffff;
-		padding: 20em 0em 14em;
+		padding: 8em 0em 14em;
 		text-align: center;
 	}
 
@@ -983,10 +988,12 @@
 		#banner p {
 			font-size: 1.5em;
 			margin: 1.5em 0 0 0;
+			font-family: serif;
 		}
 
 		#banner .actions {
 			margin: 3em 0 0 0;
+			margin-top: 475px;
 		}
 
 		#banner .button {
@@ -1006,12 +1013,12 @@
 	}
 
 		.wrapper.style1 {
-			background-color: #3ba666;
-			-moz-background-image: linear-gradient(60deg, #4dac71 50%, #3ba666 50%);
-			-webkit-background-image: linear-gradient(60deg, #4dac71 50%, #3ba666 50%);
-			-o-background-image: linear-gradient(60deg, #4dac71 50%, #3ba666 50%);
-			-ms-background-image: linear-gradient(60deg, #4dac71 50%, #3ba666 50%);
-			background-image: linear-gradient(60deg, #4dac71 50%, #3ba666 50%);
+			background-color: #004225;
+			-moz-background-image: linear-gradient(60deg, #4dac71 50%, #004225 50%);
+			-webkit-background-image: linear-gradient(60deg, #4dac71 50%, #004225 50%);
+			-o-background-image: linear-gradient(60deg, #4dac71 50%, #004225 50%);
+			-ms-background-image: linear-gradient(60deg, #4dac71 50%, #004225 50%);
+			background-image: linear-gradient(60deg, #4dac71 50%, #004225 50%);
 			color: #ffffff;
 		}
 
