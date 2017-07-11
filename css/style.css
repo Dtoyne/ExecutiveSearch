@@ -45,7 +45,6 @@
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: white;
 		font-family: sans-serif;
 		font-weight: 300;
 		line-height: 1em;
@@ -59,26 +58,33 @@
 
 	h2 {
 		font-size: 1.75em;
+		font-family: serif;
 		line-height: 1.5em;
 	}
 
 	h3 {
-		font-size: 1.35em;
+		color: white;
+		font-size: 1.75em;
+		font-family: serif;
 		line-height: 1.5em;
 	}
 
 	h4 {
-		font-size: 1.1em;
+		color: black;
+		font-size: 1.75em;
+		font-family: serif;
 		line-height: 1.5em;
 	}
 
 	h5 {
 		font-size: 0.9em;
+		font-family: serif;
 		line-height: 1.5em;
 	}
 
 	h6 {
 		font-size: 0.7em;
+		font-family: serif;
 		line-height: 1.5em;
 	}
 
@@ -1013,12 +1019,12 @@
 	}
 
 		.wrapper.style1 {
-			background-color: #004225;
-			-moz-background-image: linear-gradient(60deg, #4dac71 50%, #004225 50%);
-			-webkit-background-image: linear-gradient(60deg, #4dac71 50%, #004225 50%);
-			-o-background-image: linear-gradient(60deg, #4dac71 50%, #004225 50%);
-			-ms-background-image: linear-gradient(60deg, #4dac71 50%, #004225 50%);
-			background-image: linear-gradient(60deg, #4dac71 50%, #004225 50%);
+			background-color: ##36454f;
+			-moz-background-image: linear-gradient(60deg, #9C9A99 50%, #36454f 50%);
+			-webkit-background-image: linear-gradient(60deg, #9C9A99 50%, #36454f 50%);
+			-o-background-image: linear-gradient(60deg, #9C9A99 50%, #36454f 50%);
+			-ms-background-image: linear-gradient(60deg, #9C9A99 50%, #36454f 50%);
+			background-image: linear-gradient(60deg, #9C9A99 50%, #36454f 50%);
 			color: #ffffff;
 		}
 
@@ -1053,7 +1059,7 @@
 	#footer {
 		background: #202222;
 		color: #888;
-		padding: 6em 0em 4em;
+		padding: 2em 0em 4em;
 	}
 
 		#footer h2, #footer h3, #footer h4 {
