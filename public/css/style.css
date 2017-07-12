@@ -935,6 +935,7 @@
 						-ms-transition: color 0.2s ease-in-out;
 						transition: color 0.2s ease-in-out;
 						color: white;
+						font-size: 1.25em;
 						font-family: serif;
 						display: inline-block;
 						text-decoration: none;
@@ -973,7 +974,7 @@
 /* Banner */
 
 	#banner {
-		background: url("images/blackout.jpg"), url("../images/banner.jpg");
+		background: url("images/skyline.jpg"), url("../images/banner.jpg");
 		background-position: center;
 		background-repeat: no-repeat;
 		background-size: cover;
