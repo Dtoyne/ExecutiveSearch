@@ -4,6 +4,7 @@
   "description": "executive search",
   "main": "index.js",
   "dependencies": {
+    "browser-sync": "^2.18.12",
     "ejs": "^2.5.6",
     "express": "^4.15.3"
   },

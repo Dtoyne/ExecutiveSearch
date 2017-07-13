@@ -1,9 +1,11 @@
 var express = require('express');
 var app = express();
 var path = require('path');
+var bs = require("./");
 var contact = '/contact.html';
 var about = '/about.html';
-var index = '/index.html'
+var index = '/index.html';
+
 
 app.engine('html', require('ejs').renderFile);
 
@@ -20,5 +22,6 @@ app.get('/contact', (req, res) => {
 app.get('/about', (req, res) => {
   res.sendFile(path.join(__dirname + about));
 });
+
 
 app.listen(process.env.PORT || 5000);
